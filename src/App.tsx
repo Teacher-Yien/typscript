@@ -3,11 +3,10 @@
 function App() {
 
 
-  return (
-    <>
-      <h1>Hello update git File</h1>
-    </>
-  )
+return(
+  <>
+    <h3>Child File Update</h3>
+  </>
+)
 }
-
 export default App
