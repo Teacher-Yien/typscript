@@ -10,7 +10,7 @@ export default function App(){
 	return(
 		<>
 		  <h1>Hi</h1>
-			<Button variant='btn btn-primary' text="Click me"/>
+			<Button fontSize={30} variant='btn btn-primary' text="Click me"/>
 		</>
 	)
 }

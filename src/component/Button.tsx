@@ -1,10 +1,15 @@
+interface ButtonType{
+		text:string;
+		variant?:string;
+		fontSize:number;
+}
 
 //props:{text:string}
-const Button = ({text,variant}:{text:string,variant:string})=>{
+const Button = ({text,variant,fontSize}:ButtonType)=>{
 
 	return(
 		<>
-			<button className={variant}>{text}</button>
+			<button style={{fontSize:`${fontSize}px`}} className={variant}>{text}</button>
 		</>
 	)
 }
