@@ -1,12 +1,14 @@
-
-
-function App() {
-
-
-return(
-  <>
-    <h3>Child File Update</h3>
-  </>
-)
+function addToRiel(amount:number):string{
+	return `This ${amount}$ = ${amount * 4000} Riel`;
 }
-export default App
+
+console.log(addToRiel(10));
+
+export default function App(){
+
+	return(
+		<>
+		  <h1>Hi</h1>
+		</>
+	)
+}
