@@ -1,10 +1,12 @@
-import Button from "./component/Headler"
+import ChangeEvents from "./component/ChangeEvent";
 
-export default function App(){
-	return(
-		<>
-		  <h1>Hi</h1>
-			<Button onClick={()=> "Massage 1"}/>
-		</>
-	)
+
+export default function App() {
+
+  return (
+    <>
+      <h1>Hi</h1>
+      <ChangeEvents/>
+    </>
+  );
 }
