@@ -1,10 +1,10 @@
-import ChildProp from "./component/ChildProp";
+import Asconst from "./component/Asconst";
 export default function App() {
 
   return (
     <>
-      <h1>Hi</h1>
-      <ChildProp/>
+    
+      <Asconst/>
     </>
   );
 }
